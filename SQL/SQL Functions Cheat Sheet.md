@@ -76,20 +76,20 @@ Date & Time Functions
   
   
 
-|   |   |
-|---|---|
-|Function|Description|
-|WEEK(), WEEKDAY(), WEEKOFYEAR(), YEARWEEK()|Week and year-week functions|
-|MONTH(), MONTHNAME(), QUARTER()|Month and quarter functions|
-|YEAR(), YEARWEEK()|Year or year-week|
-|HOUR(), MINUTE(), SECOND()|Hour, minute, second|
-|MICROSECOND()|Microsecond extraction|
-|MAKEDATE(), MAKETIME()|Build date/time from components|
-|LAST_DAY()|Last day of month|
-|UNIX_TIMESTAMP(), FROM_UNIXTIME()|Unix epoch conversion|
-|TO_DAYS(), TO_SECONDS()|Convert date/time to day or second count|
-|CONVERT_TZ()|Time zone conversion|
-|GET_FORMAT()|Returns format string for date/time|
+|                                             |                                          |
+| ------------------------------------------- | ---------------------------------------- |
+| Function                                    | Description                              |
+| WEEK(), WEEKDAY(), WEEKOFYEAR(), YEARWEEK() | Week and year-week functions             |
+| MONTH(), MONTHNAME(), QUARTER()             | Month and quarter functions              |
+| YEAR(), YEARWEEK()                          | Year or year-week                        |
+| HOUR(), MINUTE(), SECOND()                  | Hour, minute, second                     |
+| MICROSECOND()                               | Microsecond extraction                   |
+| MAKEDATE(), MAKETIME()                      | Build date/time from components          |
+| LAST_DAY()                                  | Last day of month                        |
+| UNIX_TIMESTAMP(), FROM_UNIXTIME()           | Unix epoch conversion                    |
+| TO_DAYS(), TO_SECONDS()                     | Convert date/time to day or second count |
+| CONVERT_TZ()                                | Time zone conversion                     |
+| GET_FORMAT()                                | Returns format string for date/time      |
 
   
   

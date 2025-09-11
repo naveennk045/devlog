@@ -1,4 +1,3 @@
-Of course! Here are your notes, organized into a clear and structured format perfect for studying or quick reference.
 
 ***
 
