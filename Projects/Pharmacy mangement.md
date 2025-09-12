@@ -138,6 +138,38 @@ Use Basic Auth with valid user credentials.
 }
 ```
 
+
+```json
+Response
+
+```json
+{
+    "orderId": 6,
+    "user": {
+        "userId": 1,
+        "username": "",
+        "firstName": "Rover",
+        "lastName": "Z",
+        "email": "rover@example.com"
+    },
+    "shippingAddress": {
+        "addressId": 3,
+        "street": "123 Main St",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "postalCode": null,
+        "country": "India"
+    },
+    "totalAmount": 46.97,
+    "redeemedPoints": 5.0,
+    "status": "PENDING",
+    "items": null,
+    "createdAt": "2025-09-11 21:54:50",
+    "updatedAt": "2025-09-11 21:54:50"
+}
+```
+
+```
 ### 2. Get User's Orders (Paginated)
 
 **Method:** `GET`  
