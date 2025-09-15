@@ -5,53 +5,69 @@
 :: Check if inside a Git repo
 git rev-parse --is-inside-work-tree >nul 2>&1
 if errorlevel 1 (
-    echo ❌ Not a Git repository. Exiting...
+    echo ERROR: Not a Git repository. Exiting...
     pause
     exit /b
 )
 
-:: Generate timestamp (format: YYYY-MM-DD HH:MM:SS)
-for /f "tokens=2 delims==" %%i in ('"wmic os get localdatetime /value"') do set datetime=%%i
-set timestamp=%datetime:~0,4%-%datetime:~4,2%-%datetime:~6,2% %datetime:~8,2%:%datetime:~10,2%:%datetime:~12,2%
+:: Generate timestamp using PowerShell (more reliable)
+for /f "delims=" %%i in ('powershell -command "Get-Date -Format 'yyyy-MM-dd HH:mm:ss'"') do set timestamp=%%i
+
+:: Alternative method using standard Windows commands if PowerShell fails
+if "%timestamp%"=="" (
+    for /f "tokens=1-4 delims=/ " %%a in ('date /t') do (
+        set datestr=%%c-%%a-%%b
+    )
+    for /f "tokens=1-2 delims=: " %%a in ('time /t') do (
+        set timestr=%%a:%%b
+    )
+    set timestamp=%datestr% %timestr%
+)
 
 :: Commit message
 set msg=last updated on %timestamp%
 
 echo.
-echo 🚀 Running Git Cycle with commit message:
+echo Running Git Cycle with commit message:
 echo "%msg%"
 echo ========================
 
 :: Add all changes
+echo Adding all changes...
 git add -A
 if errorlevel 1 (
-    echo ❌ Error while adding files.
+    echo ERROR: Failed to add files.
     pause
     exit /b
 )
 
 :: Commit changes
+echo Committing changes...
 git commit -m "%msg%"
 if errorlevel 1 (
-    echo ⚠️ Nothing to commit, skipping commit.
+    echo WARNING: Nothing to commit, working tree clean.
+) else (
+    echo SUCCESS: Changes committed successfully.
 )
 
 :: Pull latest from origin main
+echo Pulling latest changes from origin main...
 git pull --rebase origin main
 if errorlevel 1 (
-    echo ❌ Error during pull. Resolve conflicts manually.
+    echo ERROR: Failed to pull changes. Resolve conflicts manually.
     pause
     exit /b
 )
 
 :: Push to origin main
+echo Pushing to origin main...
 git push origin main
 if errorlevel 1 (
-    echo ❌ Error during push.
+    echo ERROR: Failed to push changes.
     pause
     exit /b
 )
 
 echo.
-echo ✅ Git cycle completed successfully at %timestamp% on origin/main!
+echo SUCCESS: Git cycle completed successfully at %timestamp% on origin/main
 pause
