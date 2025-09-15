@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"3d4d1fa7241e3084","type":"text","text":"   **Documents** **Uploading**  @ Getting an documents from the users using FastAPI\n   ","x":-2060,"y":-1338,"width":223,"height":126,"color":"5"},
+		{"id":"bae16586c6891bdc","type":"text","text":"Split the documents into chunks ","x":-1976,"y":-1093,"width":303,"height":58,"color":"5"},
+		{"id":"11c0fc47d43a23fb","type":"text","text":"Convert that chunks into embeddings using the embedding models","x":-1905,"y":-916,"width":318,"height":87,"color":"4"},
+		{"id":"1ad58516a25aa681","type":"text","text":"### Embedding Model","x":-1496,"y":-1143,"width":250,"height":50,"color":"1"},
+		{"id":"e394d324a1011f47","type":"text","text":"#### VECTOR DATABASE","x":-1648,"y":-726,"width":277,"height":169,"color":"1"},
+		{"id":"f657f31ced9aeda7","type":"text","text":"Store the embedding into vector database for later retrieval","x":-1624,"y":-643,"width":229,"height":86,"color":"4"},
+		{"id":"6d06a7dc8773a8e9","x":-1165,"y":-951,"width":250,"height":60,"color":"4","type":"text","text":"Embedding the user query"},
+		{"id":"96c70c91a0b5f40d","type":"text","text":"User Query","x":-997,"y":-1368,"width":133,"height":61,"color":"2"},
+		{"id":"4cf3888ad79df051","x":-1183,"y":-557,"width":250,"height":60,"color":"6","type":"text","text":"Retrieve the Best match embedding ( vectors)"},
+		{"id":"8764b381f90694d3","x":-822,"y":-557,"width":145,"height":60,"color":"2","type":"text","text":"User Query"},
+		{"id":"a06f0857eea7b88e","x":-588,"y":-557,"width":280,"height":142,"color":"6","type":"text","text":"Give it to the LLM with context retrieved from vector data bases and user query "},
+		{"id":"9a960114bda5d7ab","x":-588,"y":-347,"width":118,"height":50,"color":"2","type":"text","text":"Response "},
+		{"id":"3041a15341426600","x":-404,"y":-465,"width":96,"height":50,"color":"#c91818","type":"text","text":"### LLM"}
+	],
+	"edges":[
+		{"id":"059ceb9bbc2019f2","fromNode":"3d4d1fa7241e3084","fromSide":"bottom","toNode":"bae16586c6891bdc","toSide":"top"},
+		{"id":"af24f2fbb86cbaf2","fromNode":"bae16586c6891bdc","fromSide":"bottom","toNode":"11c0fc47d43a23fb","toSide":"top"},
+		{"id":"bff38330673161aa","fromNode":"96c70c91a0b5f40d","fromSide":"left","toNode":"1ad58516a25aa681","toSide":"right"},
+		{"id":"20e851968002e273","fromNode":"1ad58516a25aa681","fromSide":"bottom","toNode":"11c0fc47d43a23fb","toSide":"top"},
+		{"id":"2114f61429cba58a","fromNode":"11c0fc47d43a23fb","fromSide":"bottom","toNode":"e394d324a1011f47","toSide":"top"},
+		{"id":"46c46c7803a89229","fromNode":"1ad58516a25aa681","fromSide":"bottom","toNode":"6d06a7dc8773a8e9","toSide":"top"},
+		{"id":"6afa5a21205ba163","fromNode":"6d06a7dc8773a8e9","fromSide":"bottom","toNode":"e394d324a1011f47","toSide":"top","label":"Similarity Search"},
+		{"id":"f6f3818c5dc617e8","fromNode":"e394d324a1011f47","fromSide":"right","toNode":"4cf3888ad79df051","toSide":"left"},
+		{"id":"460d936743e5795c","fromNode":"4cf3888ad79df051","fromSide":"right","toNode":"8764b381f90694d3","toSide":"left","toEnd":"none","label":"+"},
+		{"id":"a1b82beb4636fb4b","fromNode":"8764b381f90694d3","fromSide":"right","toNode":"a06f0857eea7b88e","toSide":"left"},
+		{"id":"672b6c0bd7c9f39c","fromNode":"a06f0857eea7b88e","fromSide":"bottom","toNode":"9a960114bda5d7ab","toSide":"top"}
+	]
+}

@@ -11,6 +11,6 @@ Retrieval-augmented generation (RAG) is a framework that enhances a large langua
 
 - Hallucination
 - Lack of external data , external data in the sense like from the websites , other data bases etc..
-- It is effective than other finetuning techniques like prompting technique
+- It is effective than other fine tuning techniques like prompting technique
 
 ##### [[Terminologies.canvas|Other things to consider before jumping into the implementation]]
