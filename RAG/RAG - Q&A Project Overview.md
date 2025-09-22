@@ -116,4 +116,65 @@ rag-qa-system/
 data/raw/ → document_loader → text_splitter → embeddings → vector_db/
 ```
 
-Want me to create the initial file templates for Phase 1?
+# 🚀 Phase 2: Query Processing & LLM Integration
+
+Perfect! Now let's build the query processing pipeline that will use your vector database to answer questions.
+
+## 📋 **Phase 2 Overview**
+
+```
+User Query → Embed Query → Search FAISS → Retrieve Context → Groq LLM → Answer
+```
+
+## 🛠️ **What We'll Add:**
+
+### **New Core Modules:**
+
+- `src/query_processor.py` - Handle user queries and orchestrate retrieval
+- `src/llm_client.py` - Groq API integration
+- `src/rag_pipeline.py` - Complete RAG pipeline orchestrator
+
+### **User Interfaces:**
+
+- `scripts/query_cli.py` - Command-line interface for testing
+- `app/streamlit_app.py` - Web interface (optional but recommended)
+
+### **Enhanced Features:**
+
+- Context ranking and filtering
+- Response streaming
+- Conversation memory (optional)
+- Query validation
+
+## 🎯 **Key Components We'll Build:**
+
+1. **Query Processor** - Handles embedding user questions
+2. **Context Retriever** - Smart document chunk retrieval
+3. **Groq LLM Client** - API integration with error handling
+4. **Response Generator** - Combines retrieval + generation
+5. **Streamlit Web App** - User-friendly interface
+
+## 🔧 **Updated Project Structure:**
+
+```
+rag-qa-system/
+├── src/
+│   ├── query_processor.py    # NEW
+│   ├── llm_client.py         # NEW  
+│   ├── rag_pipeline.py       # NEW
+│   └── [existing Phase 1 files]
+├── app/
+│   └── streamlit_app.py      # NEW
+├── scripts/
+│   ├── query_cli.py          # NEW
+│   └── [existing scripts]
+└── [existing structure]
+```
+
+Ready to create Phase 2 files? We'll build:
+
+- Smart retrieval with ranking
+- Groq integration with streaming
+- Clean web interface
+- Production-ready error handling
+
