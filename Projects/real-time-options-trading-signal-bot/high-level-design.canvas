@@ -2,9 +2,9 @@
 	"nodes":[
 		{"id":"763cdd8b6ce26a38","type":"text","text":"**USER**\n\n\n\n","x":460,"y":-385,"width":97,"height":50,"color":"5"},
 		{"id":"2a156f309316b968","type":"text","text":"**SUBSCRIBED ITEMS**","x":460,"y":-245,"width":194,"height":67,"color":"5"},
-		{"id":"e385314eff3d0fa6","type":"file","file":"images/chatbot.png","x":-460,"y":11,"width":244,"height":156},
-		{"id":"1c0674f3111e497a","type":"file","file":"images/Whatsapp.png","x":309,"y":120,"width":200,"height":200},
-		{"id":"81bc3ef5b8f63385","type":"file","file":"images/database.png","x":187,"y":-385,"width":165,"height":140,"color":"3"},
+		{"id":"e385314eff3d0fa6","type":"file","file":"assets/chatbot.png","x":-460,"y":11,"width":244,"height":156},
+		{"id":"1c0674f3111e497a","type":"file","file":"assets/whatsapp.png","x":309,"y":120,"width":200,"height":200},
+		{"id":"81bc3ef5b8f63385","type":"file","file":"assets/database.png","x":187,"y":-385,"width":165,"height":140,"color":"3"},
 		{"id":"520410b5293fd6b2","type":"text","text":"Upstocks  API ","x":-460,"y":-458,"width":160,"height":50,"color":"4"},
 		{"id":"a0b7df0fa578c039","type":"text","text":"**CETRAL HUB**","x":-86,"y":-211,"width":180,"height":69,"color":"6"}
 	],
