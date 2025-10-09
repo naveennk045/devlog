@@ -2,3 +2,15 @@
 
 
 
+
+Before discussing RAG, we need to know why this framework comes into play,
+what are problem it actually solves
+- Irrelevant response
+- Hallucination
+- Outdated Information
+- 
+- 
+
+
+
+
