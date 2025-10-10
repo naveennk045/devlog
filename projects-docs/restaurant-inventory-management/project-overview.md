@@ -48,4 +48,5 @@ Restaurants face inefficient inventory management due to a lack of predictive an
 | Resource | Type | Link | Why it’s useful |
 | -------- | ---- | ---- | --------------- |
 |          |      |      |                 |
+|          |      |      |                 |
 
