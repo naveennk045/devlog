@@ -120,3 +120,5 @@ Problems that involve finding peaks or troughs in sequences can often be solved 
 | 18. Maximum Frequency Stack | Stack + Hash Map (Advanced) |
 
 By working through these patterns and problems, you will develop a strong intuition for when and how to use a stack, making you a much more effective problem solver. Good luck
+
+
