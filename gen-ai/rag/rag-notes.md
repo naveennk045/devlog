@@ -18,6 +18,16 @@ The name says everything, it is about how we feed the external data from multipl
 
 [[rag-architecture.canvas|rag-architecture]]
 
+##### Components of RAG
+
+1. External Knowledge sources
+2. Document processing phase or indexing
+3. Embedding models
+4. Vector database
+5. Query encoder
+6. Retriever
+7. Prompt augmenting layer 
+8. Generative layer
 
 
 
