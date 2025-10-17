@@ -5,7 +5,13 @@
 5. worker queue management
 6. Regarding the web-socket connection
 7. time-line and payment
-8. 
+
+Now we have to create the **Functional Specification Document (FSD)** for the client  with example. 
+we are going to implement 
+from login connection management etc.. what are things mentioned in the project requirements every things included in this user docs  
+include every things from scratch with example
+create only document
+
 
 
 
