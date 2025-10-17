@@ -33,7 +33,7 @@ The Instagram-YouTube Reels Forwarding System is a production-ready web applicat
 - **Token Management**: Secure credential storage with expiry tracking and automated alerts
 - **Real-Time Notifications**: Telegram-based alerting for critical events and system status
 - **Comprehensive Analytics**: Detailed performance metrics, success rates, and failure analysis
-- **Video Transformations**: Optional video upscaling and green-screen layout processing
+- **Video Transformations**: video upscaling and green-screen layout processing
 - **Error Handling**: Automated retry with exponential backoff and CAPTCHA detection
 
 ***
