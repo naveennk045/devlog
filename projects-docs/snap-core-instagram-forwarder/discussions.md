@@ -52,3 +52,15 @@ Here are some **great YouTube search keywords** you can use to discover **intere
 
 ---
 
+YouTube  to Instagram
+
+- Account management includes storing the credentials
+	- Accounts using  pydantic models 
+- Download the video from youtube, find the good strategy to store the video
+- Worker queue management
+- Upload the video in instagram
+
+To do:
+ 
+- [ ] Find the reference and go through the docs
+- [ ] Create the flow and get it
