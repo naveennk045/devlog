@@ -62,5 +62,23 @@ YouTube  to Instagram
 
 To do:
  
+- [x] create the youtube account & instagram account
 - [ ] Find the reference and go through the docs
-- [ ] Create the flow and get it
+
+
+
+
+
+
+I do not know whether i understand the things wrongly or you understand them wrongly
+
+No our script for the automation is working like 
+
+if run the script and login with email id (USER), video uploads to that email only.
+
+but I need like i want a script that will upload videos to  channels using the channel id and api key
+
+let say there is youtube channel name paalpachai, He need upload the video to the youtube his youtube channel
+
+
+

@@ -62,3 +62,27 @@ Each microservice will be modular, API-first, and independently deployable.
 - Orchestration: Kubernetes (K8s)  
 
 - CI/CD Pipeline: GitHub Actions  
+
+
+
+the project we are going to work is inventory management as core 
+and all type of tracking like stocks, and advanced analytics,
+
+Order management  like kios.
+order management is two types manual by server, using our saas app
+
+Inventory management with all type of tracking
+advanced analytics
+
+and it is as saas product 
+
+this is the above tech stacks we have used 
+
+
+you have design the project timeline as csv file 
+like milestones 
+
+three months 
+
+i am going to work for three hours per day
+
