@@ -76,9 +76,40 @@ No our script for the automation is working like
 
 if run the script and login with email id (USER), video uploads to that email only.
 
-but I need like i want a script that will upload videos to  channels using the channel id and api key
+but I need like i want a script t[[]]hat will upload videos to  channels using the channel id and api key
 
 let say there is youtube channel name paalpachai, He need upload the video to the youtube his youtube channel
 
+
+
+
+Flow of the Instagram to YouTube  pipeline
+- Request to end points 
+-  Scrape all the contents from youtube(shorts)
+- video quality control and improvisation
+- upload it to the instagram 
+
+
+YouTube URL → Download → Apply Overlays → Upload to Catbox → Post to Social Media → Delete Local File
+    
+
+things to consider is 
+how can i store the video, local storage is fixed, but how can we handle it efficiently store it and upload it then delete it
+
+
+now we need do the first part which is nothing but download the video and and upload it 
+
+but the main thing we are going to do is using the celery and redis 
+show the queue manaement
+ process of the pipe line like downloded dowloding , processing , pending uploaded
+
+
+
+ hey now have to the pipeline processing on  
+  
+pipeline is  
+YouTube (we have only client secrets) → Download → Apply Overlays → Upload to Catbox → Post to Social Media → Delete Local File  
+but the main things we are going to do is implement celery  
+we can split this into different phases
 
 
