@@ -4,4 +4,8 @@
 
 - Simply, It is a framework, act as an intermediate between the backend [Programming Languages ] and database makes the communications easier.
 - There are some for python SQL-Alchemy, Django ORM, SQL-Object .
+
+
+
+
 - 

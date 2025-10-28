@@ -27,3 +27,6 @@
 ## Doubts
 - How to handle the request and response. from **front-end to payment gateway** or from the **back-end  to payment gateway**
 - How the data is stored the card and UPI credentials
+- How to design a flow , how to get the data and redirect it
+- Take one understand each and every endpoints
+- 
