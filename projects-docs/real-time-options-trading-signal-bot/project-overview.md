@@ -7,7 +7,7 @@
 | **Project Name**   | Restaurant Inventory Management with Advanced analytics  |
 | **Goal / Purpose** | Building a product that will help the options traders to |
 | **Current Status** | Started                                                  |
-| **Architecture**   | [[high-level-design.canvas\|high-level-design]]          |
+| **Architecture**   | [[stock-signaling-hld.canvas\|high-level-design]]          |
 
 
 ---

@@ -2,7 +2,7 @@
 
 ---
 
-## 1. Frontend (Client Layer)
+## 1. Front-end (Client Layer)
 
 - Framework: React.js (fast, modular, perfect for dashboards)      
 - UI Library: Material UI / Tailwind CSS (modern, responsive design)  

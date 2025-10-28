@@ -60,8 +60,8 @@ Across all competitors, there is no single solution that excels in scalability, 
 
 - Scalability: Larger platforms focus on global POS + inventory but are less modular for restaurants in varied regions.    
 
-- Analytics: Most tools stop at descriptive reporting (sales, usage, wastage logs) rather than predictive and prescriptive analytics (forecasting demand, minimizing waste, optimizing purchase orders).
-    
+- Analytics: Most tools stop at descriptive reporting (sales, usage, wastage logs) rather than predictive and prescriptive analytics (forecasting demand, minimising waste, optimising purchase orders).
+
 - Integrations: Some players integrate with POS and delivery, but very few provide an API-first modular architecture to plug into multiple third-party ecosystems effortlessly.
    
 👉 Opportunity & Differentiation:  
