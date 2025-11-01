@@ -49,14 +49,7 @@
 - React with JavaScript and CSS(normal)
 
 
-Rista-API Integrations
-- Pulling an menu details from the existing system
-- Post an order after the successful payment to existing system
 
-Doubts need to be clarified while  meeting 
 
-- Data models for the order and menu-items 
-- Authentications
-- demo credential for testings
-- end-points for orders and posting menus
-- 
+
+
