@@ -1,4 +1,4 @@
-# Complete AI Learning Roadmap: From Foundations to Advanced Applications
+# Complete AI Learning Road map: From Foundations to Advanced Applications
 
 ## Executive Summary
 
