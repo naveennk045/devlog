@@ -68,8 +68,6 @@
 
 - Relies on **sorting** and **priority queues**.
 - Choose locally optimal solution → build towards global optimum.
-
-
 ### **Examples**
 
 - Activity selection, interval scheduling, coin change (non-DP), Huffman coding.
@@ -102,7 +100,7 @@
 - Helps build **backtracking** intuition. 
 - Example: generating subsets, combinations, permutations.
 
-### **# Use Cases by Data Structure**
+### ** Use Cases by Data Structure**
 
 - **Stack** → recursion stack & undo operations
 - **HashMap** → memoization
@@ -157,24 +155,24 @@ Used to:
 
 ## **Recognizing Problem Clues and Mapping to Approaches**
 
-|**Clue**|**Approach / Technique**|
-|---|---|
-|“Find the number of …”|Hashing / Prefix Sum / Counting|
-|“Longest / Maximum / Minimum …”|Sliding Window / DP / Greedy|
-|“Number of ways to …”|DP / Combinatorics / Recursion|
-|“All subsets / permutations / combinations”|Backtracking|
-|“Subarray / Substring / Slice”|Sliding Window / Prefix Sum / Two Pointers|
-|“Sorted Array / Matrix”|Binary Search|
-|“Graph / Connection / Reachability”|BFS / DFS / Union-Find|
-|“Undo / Reverse / Track history”|Stack|
-|“First / Last / Smallest / Largest K items”|Heap (Priority Queue)|
-|“Prefix / Suffix Queries”|Prefix Sum / Segment Tree / BIT|
-|“Optimal Strategy / Player Wins”|DP + Game Theory|
-|“Characters and Frequencies”|HashMap / Counter|
-|“Recurrence / Overlapping Subproblems”|DP / Memoization|
-|“Multiple Intervals / Merge or Overlap”|Sorting + Two Pointers / Sweep Line|
-|“Cycle / SCC (Strongly Connected Components)”|DFS / Tarjan / Union-Find|
-|“Online Stream of Data”|Heap / Monotonic Queue / Two Pointers|
+| **Clue**                                      | **Approach / Technique**                   |
+| --------------------------------------------- | ------------------------------------------ |
+| “Find the number of …”                        | Hashing / Prefix Sum / Counting            |
+| “Longest / Maximum / Minimum …”               | Sliding Window / DP / Greedy               |
+| “Number of ways to …”                         | DP / Combinatorics / Recursion             |
+| “All subsets / permutations / combinations”   | Backtracking                               |
+| “Subarray / Substring / Slice”                | Sliding Window / Prefix Sum / Two Pointers |
+| “Sorted Array / Matrix”                       | Binary Search                              |
+| “Graph / Connection / Reachability”           | BFS / DFS / Union-Find                     |
+| “Undo / Reverse / Track history”              | Stack                                      |
+| “First / Last / Smallest / Largest K items”   | Heap (Priority Queue)                      |
+| “Prefix / Suffix Queries”                     | Prefix Sum / Segment Tree / BIT            |
+| “Optimal Strategy / Player Wins”              | DP + Game Theory                           |
+| “Characters and Frequencies”                  | HashMap / Counter                          |
+| “Recurrence / Overlapping Subproblems”        | DP / Memoization                           |
+| “Multiple Intervals / Merge or Overlap”       | Sorting + Two Pointers / Sweep Line        |
+| “Cycle / SCC (Strongly Connected Components)” | DFS / Tarjan / Union-Find                  |
+| “Online Stream of Data”                       | Heap / Monotonic Queue / Two Pointers      |
 
 ---
 
