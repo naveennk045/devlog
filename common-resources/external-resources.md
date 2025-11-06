@@ -2,7 +2,8 @@
 
 - [**ROADMAP.SH**](https://roadmap.sh/)
 - [**Build your own x**](https://github.com/codecrafters-io/build-your-own-x)
-
+#### Fast APT
+- https://fastapi.tiangolo.com/python-types/
 ### Architect
 
 - [**Backend Developer**](https://roadmap.sh/backend)
