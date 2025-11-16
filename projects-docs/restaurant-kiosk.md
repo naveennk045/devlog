@@ -1,9 +1,16 @@
 
 ### fix
-- [ ] The issue we having is in web-hook handling  and  post the order to the KDS
+- [x] Normalise the table
+- [x] Logic for generating the token [KOT]
+- [x] Refactoring the code base
+- [ ] Change the colours - [ need to get colour palates]
+- [ ] Bill generation 
+- [ ] Images for the categories
 
-### To Do :
-- [ ] EDC Integration
-- [ ] Refund API
-- [ ] Ask about KDS posting and clear the doubt why we getting the  "409 conflict errors".
-- [ ] 
+
+
+### Today call 
+- Ask them to test on windows machine first then we will move to android after hosting.
+- 
+
+
