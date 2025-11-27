@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"58d1c0e8de19a048","type":"text","text":"From front-end they will give the POST request with \n\n- order_id\n- total_amount","x":-1219,"y":-1095,"width":250,"height":129},
-		{"id":"75b6608a2c12574f","x":-870,"y":-1191,"width":250,"height":60,"type":"text","text":"POST/Dynamic-qr"}
-	],
-	"edges":[
-		{"id":"9cef144e999a02df","fromNode":"58d1c0e8de19a048","fromSide":"right","toNode":"75b6608a2c12574f","toSide":"left"}
-	]
-}
