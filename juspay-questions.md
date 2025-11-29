@@ -171,12 +171,12 @@
 
 # **Interview Theory Mapping**
 
-|Topic|DSA Area|
-|---|---|
-|Pixel Values Rotation|Matrix + Simulation|
-|Complexity Chart|Time & Space Analysis|
-|Knight’s Tour|Backtracking + DFS|
-|Binary Search with Duplicates|Modified Binary Search|
+| Topic                         | DSA Area               |
+| ----------------------------- | ---------------------- |
+| Pixel Values Rotation         | Matrix + Simulation    |
+| Complexity Chart              | Time & Space Analysis  |
+| Knight’s Tour                 | Backtracking + DFS     |
+| Binary Search with Duplicates | Modified Binary Search |
 
 ---
 
