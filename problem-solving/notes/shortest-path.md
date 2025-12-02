@@ -300,5 +300,219 @@ A **negative cycle** is a cycle in which the **sum of all edge weights is negati
 |Adjacency Matrix|Floyd–Warshall|
 |Grid Graph|BFS, Dijkstra|
 
+
+-----
+
+# Bellman–Ford & Dijkstra – Practice Problems and Real Applications
+
+
+# 1. Bellman–Ford Practice Problems
+
+### GeeksForGeeks
+
+1. Bellman–Ford Algorithm – Implement from scratch
+    
+2. Detect Negative Cycle in a Graph
+    
+3. Shortest Path in Directed Graph with Negative Weights
+    
+4. Graph with Negative Edge but No Negative Cycle
+    
+
+These align perfectly with your current Java implementation.
+
 ---
 
+### LeetCode
+
+1. 743. Network Delay Time – Can be solved using both Dijkstra and Bellman–Ford
+        
+2. 787. Cheapest Flights Within K Stops – Bellman–Ford with limited relaxations
+        
+3. 1334. Find the City With the Smallest Number of Neighbors
+        
+4. 882. Reachable Nodes in Subdivided Graph
+        
+
+---
+
+### HackerRank
+
+1. Bellman–Ford Shortest Reach
+    
+2. Detecting Negative Cycles
+    
+3. City and Soldiers – Graph with Negative Weights
+    
+
+---
+
+# 2. Dijkstra Practice Problems
+
+### LeetCode
+
+1. 1976. Number of Ways to Arrive at Destination
+        
+2. 1631. Path With Minimum Effort
+        
+3. 1514. Path with Maximum Probability
+        
+4. 2290. Minimum Obstacle Removal to Reach Corner
+        
+5. 778. Swim in Rising Water
+        
+
+---
+
+### GeeksForGeeks
+
+1. Dijkstra Algorithm (Standard)
+    
+2. Shortest Path in Weighted Undirected Graph
+    
+3. Minimum Cost Path in a Matrix
+    
+4. Path with Minimum Effort (Grid Version)
+    
+
+---
+
+### HackerRank
+
+1. Dijkstra: Shortest Reach 2
+    
+2. Minimum Penalty Path
+    
+3. Gridland Metro (Graph Modeling + Dijkstra)
+    
+
+
+# 3. Minimal Real-World Applications You Can Build
+
+These are small but powerful project ideas you can implement in Java or Python and later convert into APIs.
+
+---
+
+## 1. Cheapest Travel Route Finder
+
+Algorithm: Dijkstra  
+Use Case: Bus, train, or flight shortest route
+
+Features:
+
+- Input: Cities and ticket costs
+    
+- Output: Cheapest route
+    
+- Can be converted into a Spring Boot API
+    
+
+---
+
+## 2. Payment Gateway Route Optimizer
+
+Algorithm: Bellman–Ford  
+Use Case: Choosing the cheapest transaction route across banks
+
+Features:
+
+- Some routes may have negative cashback
+    
+- Detects profitable cycles and fraud scenarios
+    
+
+---
+
+## 3. Delivery Cost Optimization Engine
+
+Algorithm: Dijkstra  
+Use Case: Food delivery or logistics distance minimization
+
+Features:
+
+- Weighted graph representing city roads
+    
+- Finds the fastest or cheapest delivery route
+    
+
+---
+
+## 4. Currency Arbitrage Detector
+
+Algorithm: Bellman–Ford
+
+Core idea:
+
+- Convert currency exchange rates using `-log(rate)`
+    
+- A negative cycle indicates guaranteed profit
+    
+
+This is a very strong resume-level project.
+
+---
+
+## 5. Network Routing Simulator
+
+Algorithm: Dijkstra  
+Use Case: Shortest path between routers
+
+Features:
+
+- Packet movement visualization
+    
+- Link failure handling simulation
+    
+
+---
+
+## Conclusion and Recommendations
+
+### Final Summary
+
+- You have successfully completed Bellman–Ford
+    
+- Your next steps should be:
+    
+    1. Solve 8–10 problems from the lists above
+        
+    2. Practice both Dijkstra and Bellman–Ford together
+        
+    3. Build at least one mini application
+        
+- This will make you:
+    
+    - Interview-ready
+        
+    - System-design-ready
+        
+    - Resume-strong
+        
+
+---
+
+### Recommended Learning Order
+
+1. LeetCode 787 – Cheapest Flights Within K Stops
+    
+2. GeeksForGeeks – Detect Negative Cycle
+    
+3. LeetCode 1976 – Number of Ways to Arrive at Destination
+    
+4. Then build a **Currency Arbitrage Detection System using Bellman–Ford**
+    
+
+This progression will take your graph knowledge to an advanced level.
+
+---
+
+If you want, I can:
+
+- Design one complete mini project with architecture and code structure
+    
+- Provide LeetCode-style test cases for practice
+    
+- Convert your Bellman–Ford logic into a REST API design
+    
+
+Tell me what you want to build first.
