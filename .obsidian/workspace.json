@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "970a4b3f9ad673b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "666299c060ecf7f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efca43e5eee076e8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "databases/normalization.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "normalization"
+            }
+          },
+          {
+            "id": "ee602cdb8eda1de6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "databases/sql-questions.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "sql-questions"
+            }
+          },
+          {
+            "id": "f2cebba06acda3dc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a842b93957d47693",
+    "type": "split",
+    "children": [
+      {
+        "id": "1bfa734b35de21d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "362a5ceb579c425f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a9af9fe713cae8eb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "80994d691f32666a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ce6424ad84bf3c3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a5c02906b30c1bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b0062fbaf25b0ef",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "backend/api-stuffs/rest-api-input.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for rest-api-input"
+            }
+          },
+          {
+            "id": "c4f8e0583191beb7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "backend/api-stuffs/rest-api-input.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from rest-api-input"
+            }
+          },
+          {
+            "id": "3c45ac2b5a611031",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "913c0e1942f4bf4e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "69ae7a2994663888",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "dsa-full/notes/BFS.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of BFS"
+            }
+          },
+          {
+            "id": "21edd9c762c4ef10",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "efca43e5eee076e8",
+  "lastOpenFiles": [
+    "databases/sql-questions.pdf",
+    "databases/normalization.pdf",
+    "databases/SQL-cheatsheet.md",
+    "problem-solving/Complete-DSA-Master-Handbook-2.pdf",
+    "databases/SQL-functions.md",
+    "databases/sql-book.pdf",
+    "backend/cloud-computing.pdf",
+    "sandbox.md",
+    "backend/queue-worker-management/perplexity.md",
+    "backend/queue-worker-management/notes-on-queue-processing.md",
+    "backend/queue-worker-management",
+    "problem-solving/notes/shortest-path.md",
+    "problem-solving/notes/graph.md",
+    "juspay-questions.md",
+    "problem-solving/handbook.md",
+    "dopamine-menu.md",
+    "problem-solving/pattern-capturing.md",
+    "problem-solving/syllabus.md",
+    "problem-solving/resources.md",
+    "backend/api-stuffs/cross-origin-resource-sharing-cors.md",
+    "backend/api-stuffs/http-and-https.md",
+    "ai-factory/rag/rag-notes.md",
+    "multi-threading.md",
+    "ai-stuffs/embedding-models.md",
+    "exception-handling.md",
+    "problem-solving/notes/BFS.md",
+    "problem-solving/notes/stack.md",
+    "problem-solving/notes/recursion.md",
+    "problem-solving/notes/dynamic-programming.md",
+    "cookies.md",
+    "himalayan-savour/architecture-hld.md"
+  ]
+}
