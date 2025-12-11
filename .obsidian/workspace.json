@@ -4,41 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "666299c060ecf7f2",
+        "id": "a85e0ff73d159ab4",
         "type": "tabs",
         "children": [
           {
-            "id": "efca43e5eee076e8",
+            "id": "bd05ed06a98ccdb6",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "databases/normalization.pdf"
+                "file": "daily-notes/2025-12-11.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "normalization"
-            }
-          },
-          {
-            "id": "ee602cdb8eda1de6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "databases/sql-questions.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "sql-questions"
-            }
-          },
-          {
-            "id": "f2cebba06acda3dc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-12-11"
             }
           }
         ]
@@ -211,11 +191,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "efca43e5eee076e8",
+  "active": "bd05ed06a98ccdb6",
   "lastOpenFiles": [
+    "problem-solving/resources.md",
+    "daily-notes/2025-12-11.md",
+    "daily-notes",
     "databases/sql-questions.pdf",
     "databases/normalization.pdf",
     "databases/SQL-cheatsheet.md",
@@ -234,7 +218,6 @@
     "dopamine-menu.md",
     "problem-solving/pattern-capturing.md",
     "problem-solving/syllabus.md",
-    "problem-solving/resources.md",
     "backend/api-stuffs/cross-origin-resource-sharing-cors.md",
     "backend/api-stuffs/http-and-https.md",
     "ai-factory/rag/rag-notes.md",
@@ -245,7 +228,6 @@
     "problem-solving/notes/stack.md",
     "problem-solving/notes/recursion.md",
     "problem-solving/notes/dynamic-programming.md",
-    "cookies.md",
-    "himalayan-savour/architecture-hld.md"
+    "cookies.md"
   ]
 }
