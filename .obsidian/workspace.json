@@ -4,21 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "a85e0ff73d159ab4",
+        "id": "666299c060ecf7f2",
         "type": "tabs",
         "children": [
           {
-            "id": "bd05ed06a98ccdb6",
+            "id": "efca43e5eee076e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-notes/2025-12-11.md",
+                "file": "backend/microservices-chris.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-11"
+              "title": "microservices-chris"
+            }
+          },
+          {
+            "id": "ee602cdb8eda1de6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "databases/sql-questions.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "sql-questions"
+            }
+          },
+          {
+            "id": "f2cebba06acda3dc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -191,17 +213,16 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd05ed06a98ccdb6",
+  "active": "efca43e5eee076e8",
   "lastOpenFiles": [
-    "problem-solving/resources.md",
+    "databases/normalization.pdf",
+    "backend/microservices-chris.md",
     "daily-notes/2025-12-11.md",
     "daily-notes",
     "databases/sql-questions.pdf",
-    "databases/normalization.pdf",
     "databases/SQL-cheatsheet.md",
     "problem-solving/Complete-DSA-Master-Handbook-2.pdf",
     "databases/SQL-functions.md",
@@ -218,6 +239,7 @@
     "dopamine-menu.md",
     "problem-solving/pattern-capturing.md",
     "problem-solving/syllabus.md",
+    "problem-solving/resources.md",
     "backend/api-stuffs/cross-origin-resource-sharing-cors.md",
     "backend/api-stuffs/http-and-https.md",
     "ai-factory/rag/rag-notes.md",
@@ -227,7 +249,6 @@
     "problem-solving/notes/BFS.md",
     "problem-solving/notes/stack.md",
     "problem-solving/notes/recursion.md",
-    "problem-solving/notes/dynamic-programming.md",
-    "cookies.md"
+    "problem-solving/notes/dynamic-programming.md"
   ]
 }
